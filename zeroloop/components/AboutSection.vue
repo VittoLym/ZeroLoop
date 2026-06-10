@@ -33,7 +33,7 @@
               LinkedIn ↗
             </a>
             <a
-              href="https://github.com/devvitto"
+              href="https://github.com/vittolym"
               target="_blank"
               class="flex items-center gap-2 text-sm text-text-secondary/60 transition-colors hover:text-primary"
             >

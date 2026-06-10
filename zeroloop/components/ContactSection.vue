@@ -33,7 +33,7 @@
           </svg>
         </a>
         <a
-          href="https://github.com/devvitto"
+          href="https://github.com/vittolym"
           target="_blank"
           class="rounded-full border border-white/5 bg-white/5 p-4 transition-all hover:border-primary/40 hover:bg-white/10 active:scale-90"
         >

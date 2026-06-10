@@ -62,7 +62,7 @@ const projects = [
     title: 'CAEngine',
     tags: ['Python', 'GitHub API', 'X', 'LinkedIn', 'Bluesky'],
     description: 'Analyzes any GitHub repository and automatically publishes the most interesting content across social platforms.',
-    link: 'https://github.com/devvitto/caengine',
+    link: 'https://github.com/VittoLym/insights_engine',
   },
 ]
 </script>

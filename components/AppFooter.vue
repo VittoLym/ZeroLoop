@@ -20,6 +20,6 @@ const links = [
   { label: 'Services', href: '#services' },
   { label: 'Work', href: '#work' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/devvitto/' },
-  { label: 'GitHub', href: 'https://github.com/devvitto' },
+  { label: 'GitHub', href: 'https://github.com/vittolym' },
 ]
 </script>
