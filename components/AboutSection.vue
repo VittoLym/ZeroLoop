@@ -4,6 +4,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
         <div class="section-reveal relative flex justify-center">
           <div class="photo-bevel w-full max-w-[400px] aspect-square overflow-hidden rounded-sm bg-black group">
+            <img alt="Vitto - Software Developer" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000 scale-105 group-hover:scale-110" src="../assets/img/vitto.jpeg">
             <!-- Replace with: <img src="/your-photo.jpg" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000 scale-105 group-hover:scale-110" /> -->
             <div class="w-full h-full flex items-center justify-center text-8xl opacity-10">👤</div>
             <div class="absolute inset-0 border border-white/5" />
@@ -23,7 +24,7 @@
                class="flex items-center gap-2 text-sm text-white/60 hover:text-[#8B5CF6] transition-colors">
               LinkedIn ↗
             </a>
-            <a href="https://github.com/devvitto" target="_blank"
+            <a href="https://github.com/vittolym" target="_blank"
                class="flex items-center gap-2 text-sm text-white/60 hover:text-[#8B5CF6] transition-colors">
               GitHub ↗
             </a>
