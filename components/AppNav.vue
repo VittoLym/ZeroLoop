@@ -2,12 +2,11 @@
   <header class="sticky top-0 w-full z-50 bg-[#050505]/50 backdrop-blur-xl border-b border-white/5">
     <div class="flex justify-between items-center max-w-[1200px] mx-auto px-6 py-5">
       <a href="#" class="text-xl font-bold text-white flex items-center gap-2 tracking-tight hover:scale-105 transition-transform">
-        <span class="text-[#8B5CF6]">⬡</span>
-        Zeroloop<span class="text-[#8B5CF6]">.</span>
+        <img class="logo" src="../assets/img/add-text-zeroloop-to-de--right-side-cropped.svg" alt="Logo Zeroloop">
       </a>
       <nav class="hidden md:flex items-center gap-10">
         <a v-for="l in links" :key="l.href" :href="l.href"
-           class="text-sm font-medium text-[#8B949E] hover:text-white transition-colors duration-300">
+           class="text-xl font-medium text-[#8B949E] hover:text-white transition-colors duration-300">
           {{ l.label }}
         </a>
       </nav>
@@ -40,3 +39,8 @@ const links = [
   { label: 'Contact', href: '#contact' },
 ]
 </script>
+<style scoped>
+.logo{
+  height: 7vh;
+}
+</style>
