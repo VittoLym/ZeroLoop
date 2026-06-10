@@ -5,7 +5,7 @@
       <div class="section-reveal inline-flex items-center gap-2 px-5 py-1.5 rounded-full border border-white/10 bg-white/5 text-[#8B5CF6]/80 text-sm backdrop-blur-md">
         <span class="text-[10px]">✦</span> Automation &amp; Full Stack Development
       </div>
-      <h1 ref="heading" class=" mandarina text-[clamp(70px,8vw,72px)] font-bold leading-[1.05] tracking-[-0.04em] text-white">
+      <h1 ref="heading" class=" mandarina text-[clamp(28px,7vw,72px)] font-bold leading-[1.05] tracking-[-0.04em] text-white">
         Automate the loop.<br />Focus on what <em class="text-[#7C3AED] not-italic">matters</em>.
       </h1>
       <p class="section-reveal text-lg leading-relaxed text-[#8B949E] max-w-2xl mx-auto">
@@ -74,6 +74,7 @@ onMounted(() => {
 </script>
 <style>
 .mandarina{
-  width: 45vw;
+  min-width: 45vw;
 }
+
 </style>
