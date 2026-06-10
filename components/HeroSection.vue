@@ -2,10 +2,10 @@
   <section class="relative min-h-[85vh] flex flex-col items-center justify-center text-center px-6 py-20 overflow-hidden">
     <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1000px] h-[800px] bg-[#8B5CF6]/5 blur-[160px] rounded-full pointer-events-none" />
     <div class="relative z-10 space-y-8 max-w-4xl mx-auto">
-      <div class="section-reveal inline-flex items-center gap-2 px-5 py-1.5 rounded-full border border-white/10 bg-white/5 text-[#8B5CF6]/80 text-sm backdrop-blur-md">
+      <div class=" tag-2 section-reveal inline-flex items-center gap-2 px-5 py-1.5 rounded-full border border-white/10 bg-white/5 text-[#8B5CF6]/80 backdrop-blur-md">
         <span class="text-[10px]">✦</span> Automation &amp; Full Stack Development
       </div>
-      <h1 ref="heading" class=" mandarina text-[clamp(28px,7vw,72px)] font-bold leading-[1.05] tracking-[-0.04em] text-white">
+      <h1 ref="heading" class=" mandarina text-[clamp(30px,7vw,72px)] font-bold leading-[1.05] tracking-[-0.04em] text-white">
         Automate the loop.<br />Focus on what <em class="text-[#7C3AED] not-italic">matters</em>.
       </h1>
       <p class="section-reveal text-lg leading-relaxed text-[#8B949E] max-w-2xl mx-auto">
@@ -76,5 +76,12 @@ onMounted(() => {
 .mandarina{
   min-width: 45vw;
 }
-
+.tag-2{
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  .tag-2{    
+  font-size:clamp(7px,8px,10px);
+  }
+}
 </style>
