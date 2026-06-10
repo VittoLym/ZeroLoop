@@ -3,7 +3,7 @@
     <div class="mx-auto flex max-w-container items-center justify-between px-6 py-4">
       <!-- Logo -->
       <a href="#" class="flex items-center gap-2 text-xl font-bold tracking-tight text-text-primary">
-        <img src="/logo-icon.svg" alt="Zeroloop" class="h-7 w-7" />
+        <img src="../assets/img/logo_zl-cropped.svg" alt="Zeroloop" class="h-7 w-7" />
         Zeroloop<span class="text-primary">.</span>
       </a>
 
